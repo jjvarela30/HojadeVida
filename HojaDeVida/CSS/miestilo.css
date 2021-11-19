@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.hj h1{
+    background-color: rgb(72, 211, 102);
+    padding: 1%;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(3, 3, 3);
+}
+.encabezado{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.encabezado img{
+    width: 100px;
+    border-radius: 20%;
+    margin: 5%;
+    padding: 5%;
+}
+
+.encabezado h1{
+    color:rgb(3, 3, 3);
+}
+
+.infoprincipal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.infopersonal h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.infopersonal1 ul {
+    list-style: none;
+}
+
+.infopersonal1 {
+    background-color: rgb(72, 211, 102);
+    padding: 15px;
+    margin: 15px;
+    width: 25%;
+    border: rgb(3, 3, 3) 10px outset;
+}
+
+.infopersonal1 label,i{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 1px;
+}
+
+.inforicono {
+    display: flex;
+}
+
+
+.perfilprofesional{
+    background-color: rgb(255, 255, 255); 
+    padding: 15px;
+    margin: 15px;
+    width: 30%;
+    border:rgb(3, 3, 3) 10px outset;
+}   
+
+.perfilprofesional label,i{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.perfilprofesional p{
+    text-align: justify;
+    letter-spacing: 0.8px;
+}
+
+.estudios h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.estudios {
+    background-color:rgb(72, 211, 102); 
+    padding: 15px;
+    margin: 15px;
+    width: 25%;
+    border: rgb(3, 3, 3)) 10px outset;
+}
+
+.estudios ul{
+    list-style: none;
+}
+
+.estudios label{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.iconestudio{
+    display: flex;
+}
+
+@media screen and (max-width:800px) {
+    .infopersonal1{
+        width: 100%;
+    }
+    .perfilprofesional{
+        width: 100%;
+    }
+    .estudios{
+        width: 100%;
+    }
+    .laboral{
+        width: 100%;
+    }
+    .referencias{
+        width: 100%;
+    }
+}
+
+.infosegundaria{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(200, 230, 241) ;
+}
+
+.laboral h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.laboral{
+    background-color: rgb(72, 211, 102);
+    padding: 2%;
+    margin: 15px;
+    border: rgb(3, 3, 3) 30px outset;
+    width: 30%;
+}
+
+.laboral ul{
+    list-style: none;
+}
+
+.referencias h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.referencias{
+    background-color:rgb(72, 211, 102);
+    padding: 2%;
+    margin: 15px;
+    border: rgb(3, 3, 3) 30px outset;
+    width: 30%;
+}
+
+.referencias ul{
+    list-style: none;
+}
+
+.Contenedor{
+    background-color:rgb(255, 255, 255)
+}
